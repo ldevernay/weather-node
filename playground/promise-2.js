@@ -24,12 +24,12 @@ var geocodeAddress = (address) => {
   });
 };
 
-geocodeAddress('16000')
+geocodeAddress('00000')
 .then((location) => {
   console.log(JSON.stringify(location, undefined, 2));
 }, (errorMessage) => {
   console.log(errorMessage);
 })
 .catch(() => {
-
+  console.log('An error occurred');
 })
