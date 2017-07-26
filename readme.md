@@ -7,8 +7,10 @@ Enter a zipcode to get the formatted address and temperature, thanks to 2 APIs.
 * app-promise.js wraps it all in a single file, using axios library to implement promises.
 
 
-      
+
 **How to launch**    
 
-node app.js -a <zipcode>     
-eg : node app.js -a 31800
+```node app.js -a <zipcode>```   
+
+Example :   
+```node app.js -a 31800```
